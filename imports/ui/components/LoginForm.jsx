@@ -8,7 +8,6 @@ export const LoginForm = () => {
 
     const handleSubmit=(e)=>{
         e.preventDefault();
-        console.log(username,password);
         Meteor.loginWithPassword(username,password);
     }
 
